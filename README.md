@@ -88,7 +88,7 @@ Instead of using the slow recursive approach, we can build a table bottom-up.
 **Question:** Use your recurrence relation from Part 4 to fill in the following table for the example provided in Part 3 ($w_1=1, v_1=2$ and $w_2=2, v_2=5$). At each step, record the optimal value and the specific item chosen to achieve that value. 
 
 | Capacity ($W$) | Optimal Value ($OPT$) | Item Chosen |
-|:---:|:---|:---|
+| :---: | :--- | :--- |
 | **0** | 0 | None |
 | **1** | 2 | Item 1 |
 | **2** | 5 | Item 2 |
