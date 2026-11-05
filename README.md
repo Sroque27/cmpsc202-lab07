@@ -6,7 +6,7 @@ I have attached a screen shot of when I completed this assignment and drew out t
 
 ## Introduction
 
-In this lab, you will explore different variations of the Knapsack problem and design a dynamic programming solution for one of them. You may work in small groups or individually, but everyone should write up their own answers to the questions below. 
+In this lab, you will explore different variations of the Knapsack problem and design a dynamic programming solution for one of them. You may work in small groups or individually, but everyone should write up their own answers to the questions below.
 
 Suppose we're going hiking. We have items $1, \ldots, n$ that we could pack in multiples with corresponding values $v_1, \ldots, v_n$ and weights $w_1, \ldots, w_n$. For example, we might have a water bottle (weight 1, value 2) and a sandwich (weight 2, value 5). Consider the following three problem variations:
 
@@ -83,9 +83,9 @@ This works because for every item that fits in the remaining capacity, I can cho
 
 ## Part 5: Bottom-Up Dynamic Programming
 
-Instead of using the slow recursive approach, we can build a table bottom-up. 
+Instead of using the slow recursive approach, we can build a table bottom-up.
 
-**Question:** Use your recurrence relation from Part 4 to fill in the following table for the example provided in Part 3 ($w_1=1, v_1=2$ and $w_2=2, v_2=5$). At each step, record the optimal value and the specific item chosen to achieve that value. 
+**Question:** Use your recurrence relation from Part 4 to fill in the following table for the example provided in Part 3 ($w_1=1, v_1=2$ and $w_2=2, v_2=5$). At each step, record the optimal value and the specific item chosen to achieve that value.
 
 | Capacity ($W$) | Optimal Value ($OPT$) | Item Chosen |
 | :---: | :--- | :--- |
@@ -120,9 +120,9 @@ Starting at $W=6$, the table tells me to choose Item 2, which has a weight of 2 
 
 Therefore, the optimal packing configuration is:
 
-- **Item 1:** 0
-- **Item 2:** 3
-- **Total Weight:** $3(2)=6$
-- **Maximum Value:** $3(5)=15$
+* **Item 1:** 0
+* **Item 2:** 3
+* **Total Weight:** $3(2)=6$
+* **Maximum Value:** $3(5)=15$
 
 So for $W=6$, I should pack three copies of Item 2 for a maximum value of **15**.
