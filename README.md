@@ -5,6 +5,7 @@
 I have attached a screen shot of when I completed this assignment and drew out the answer for part 3 as proof I had this assignment done but I have mistakenly did my work in the template repo for this lab. After realizing my mistake, I copied my answer into my own fork and pushed my answers again.
 
 ## Introduction
+
 In this lab, you will explore different variations of the Knapsack problem and design a dynamic programming solution for one of them. You may work in small groups or individually, but everyone should write up their own answers to the questions below. 
 
 Suppose we're going hiking. We have items $1, \ldots, n$ that we could pack in multiples with corresponding values $v_1, \ldots, v_n$ and weights $w_1, \ldots, w_n$. For example, we might have a water bottle (weight 1, value 2) and a sandwich (weight 2, value 5). Consider the following three problem variations:
@@ -47,7 +48,9 @@ Function MaxValue(W):
 ## Part 3: Recursion Tree
 
 Consider the following simple example:
+
 * **Knapsack Capacity:** $W = 3$
+
 * **Item 1:** Weight $w_1 = 1$, Value $v_1 = 2$
 * **Item 2:** Weight $w_2 = 2$, Value $v_2 = 5$
 * **Item 3:** Weight $w_3 = 1$, Value $v_3 = 3$
